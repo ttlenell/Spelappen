@@ -10,13 +10,33 @@ import UIKit
 
 class GameViewController: UIViewController {
 
+    
+    @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet weak var die1: UIImageView!
+    
+    @IBOutlet weak var die2: UIImageView!
+    
+    @IBOutlet weak var die3: UIImageView!
+    
+    @IBOutlet weak var die4: UIImageView!
+    
+    @IBOutlet weak var die5: UIImageView!
+    
+    @IBOutlet weak var die6: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
     
-
+    
+    
+    @IBAction func rollButton(_ sender: UIButton) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 
